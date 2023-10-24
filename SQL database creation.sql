@@ -1,4 +1,4 @@
-CREATE DATABASE online_store_dbo;
+CREATE DATABASE car_store_dbo;
 CREATE TABLE orders (row_id INT PRIMARY KEY NOT NULL,
 					 Order_id VARCHAR(10) NOT NULL,
                      created_at DATETIME NOT NULL,
