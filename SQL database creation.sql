@@ -38,4 +38,9 @@ CREATE TABLE employees(employee_id INT PRIMARY KEY NOT NULL,
                        employee_position VARCHAR(10) NOT NULL,
                        hourly_pay DECIMAL (5,2) NOT NULL
 );
+
+CREATE TABLE cost(product_id INT NOT NULL,
+				  product_name VARCHAR(10) NOT NULL,
+                  product_cost DECIMAL(10,2) NOT NULL
+);
 					

@@ -1,0 +1,1 @@
+SELECT * FROM car_store_dbo.orders;

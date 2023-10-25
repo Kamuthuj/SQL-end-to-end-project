@@ -1,0 +1,41 @@
+row_id,Order_id,created_at,item_name,item_price,quantity,customer_id,delivery,add_id
+1,1,17/10/2021,air freshner,15.5,6,2,0,nakuru
+2,2,18/10/2021,air freshner,15.5,10,4,1,mombasa
+3,3,19/10/2021,shock absorbers,25.5,18,7,1,nairobi
+4,4,20/10/2021,stabilizer links,15.75,22,8,1,nakuru
+5,5,21/10/2021,tie rods,28.85,40,10,1,nakuru
+6,6,22/10/2021,stabilizer links,15.75,15,12,1,nakuru
+7,7,23/10/2021,cv joints,22.5,22,10,1,kisumu
+8,8,24/10/2021,bearings,20.55,30,12,1,kisumu 
+9,9,25/10/2021,break pads,38.5,15,11,1,western
+10,10,26/10/2021,air freshner,15.5,20,15,1,western
+11,11,27/10/2021,air freshner,15.5,20,7,0,nairobi
+12,12,28/10/2021,bearings,20.55,10,7,0,nairobi
+13,13,29/10/2021,shock absorbers,25.5,17,6,0,eldoret
+14,14,30/10/2021,tie rods,28.85,18,5,1,eldoret
+15,15,31/10/2021,stabilizer links,15.75,22,4,1,nairobi
+16,16,01/11/2021,air freshner,15.5,22,4,1,nairobi
+17,17,02/11/2021,shock absorbers,25.5,30,9,1,nairobi
+18,18,03/11/2021,tie rods,28.85,28,3,0,kakamega
+19,19,04/11/2021,tie rods,28.85,45,3,0,western
+20,20,05/11/2021,cv joints,22.5,25,11,1,western
+21,21,06/11/2021,cv joints,22.5,15,10,1,mombasa
+22,22,07/11/2021,cv joints,22.5,8,14,1,mombasa
+23,23,08/11/2021,stabilizer links,15.75,45,15,0,mombasa
+24,24,09/11/2021,tie rods,28.85,10,15,0,kitui
+25,25,10/11/2021,tie rods,28.85,10,10,1,kitui
+26,26,11/11/2021,air freshner,15.5,12,9,1,eldoret
+27,27,12/11/2021,shock absorbers,25.5,10,7,0,nairobi
+28,28,13/11/2021,shock absorbers,25.5,10,8,1,nakuru
+29,29,14/11/2021,shock absorbers,25.5,18,6,0,kitui
+30,30,15/11/2021,bearings,20.55,6,6,1,nakuru
+31,31,16/11/2021,cv joints,22.5,20,4,1,mombasa
+32,32,17/11/2021,cv joints,22.5,20,3,1,western
+33,33,18/11/2021,cv joints,22.5,34,2,0,mombasa
+34,34,19/11/2021,air freshner,15.5,20,2,0,eldoret
+35,35,20/11/2021,air freshner,15.5,45,1,1,nairobi
+36,36,21/11/2021,stabilizer links,15.75,10,1,1,western
+37,37,22/11/2021,stabilizer links,15.75,10,1,1,kitui
+38,38,23/11/2021,air freshner,15.5,20,2,1,nairobi
+39,39,24/11/2021,air freshner,15.5,20,7,1,nairobi
+40,40,25/11/2021,cv joints,22.5,5,8,,nairobi
