@@ -93,6 +93,23 @@ GROUP BY item_name
 ORDER BY item_name
 
 
+SELECT item_name,
+	   SUM(product_cost*quantity) AS total_cost
+FROM orders o
+JOIN cost c
+ON o.item_name =c.product_name
+GROUP BY item_name
+ORDER BY item_name
+
+
+
+SELECT item_name,
+	   SUM(item_price*quantity)- SUM(product_cost*quantity) AS gross_profit
+FROM orders o
+JOIN cost c
+ON o.item_name =c.product_name
+GROUP BY item_name
+ORDER BY item_name
 
 
 
