@@ -3,6 +3,7 @@ CREATE TABLE orders (row_id INT PRIMARY KEY NOT NULL,
 					 Order_id VARCHAR(10) NOT NULL,
                      created_at DATETIME NOT NULL,
                      item_name VARCHAR(20) NOT NULL,
+                     item_id INT NOT NULL,
                      item_price DECIMAL(5,2) NOT NULL,
                      quantity INT NOT NULL,
                      customer_id INT NOT NULL,
@@ -40,7 +41,7 @@ CREATE TABLE employees(employee_id INT PRIMARY KEY NOT NULL,
 );
 
 CREATE TABLE cost(product_id INT NOT NULL,
-				  product_name VARCHAR(10) NOT NULL,
+				  product_name VARCHAR(20) NOT NULL,
                   product_cost DECIMAL(10,2) NOT NULL
 );
 					

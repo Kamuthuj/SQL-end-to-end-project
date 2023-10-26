@@ -85,6 +85,12 @@ ON p.product_id =c.product_id
 SELECT *
 FROM gross_profit
 
+SELECT item_name, 
+      SUM(quantity) AS volume,
+	  SUM(item_price*quantity) AS total_sales
+FROM orders
+GROUP BY item_name
+ORDER BY item_name
 
 
 
