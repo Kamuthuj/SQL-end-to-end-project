@@ -1,0 +1,5 @@
+My SQL project aims to develop a central database management system for a car auto shop to monitor revenue, stock and the items sold in different parts. This is to streamline the sales of goods and provide data insights on the products sold.
+DATABASE DESIGN.
+I created a relational data base management system for the stakeholders which I was able to clearly establish relationships and foreign keys between the tables for easy data retrieval. I wrote SQL scripts to create the database schema.
+Using the provided data, I loaded data into the different respective tables and made queries which would provide insights on the purchase of their products based on different price points and different parts within Kenya.
+I created a connection for MySQL workbench where I used the available data to create visualizations to view performances of the different products. I preferably chose the filter, as It would be easy to generate details and insights of each product in depth. Pivot tables also played a key role as I used DAX formulas to create new tables which aided in calculating totals for different columns within my data.
