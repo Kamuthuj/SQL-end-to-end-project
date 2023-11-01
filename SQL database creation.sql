@@ -44,4 +44,8 @@ CREATE TABLE cost(product_id INT NOT NULL,
 				  product_name VARCHAR(20) NOT NULL,
                   product_cost DECIMAL(10,2) NOT NULL
 );
+CREATE TABLE payments(product_id INT NOT NULL,
+	              payment_method VARCHAR(10) NOT NULL,
+	              payment_method_id INT NOT NULL
+);
 					
